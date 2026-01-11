@@ -4,7 +4,7 @@ import json
 
 app = Flask(__name__)
 
-PROJECT_ID = "YOUR_PROJECT_ID"
+PROJECT_ID = "terraform-482817"
 TOPIC_ID = "orders-topic"
 
 publisher = pubsub_v1.PublisherClient()
